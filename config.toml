@@ -1,0 +1,8 @@
+languageCode = "en-us"
+title = "Chicago Grown Up Science Fair"
+baseurl = "http://example.org/"
+
+[Params]
+  header_title = "Chicago Grown Up Science Fair"
+  header_background = "img/IMG_20160420_201854.jpg"
+  custom_css = ["css/grownupsciencefair.css"]

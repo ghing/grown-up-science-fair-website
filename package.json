@@ -1,0 +1,15 @@
+{
+  "name": "grown-up-science-fair-website",
+  "version": "0.1.0",
+  "description": "Website for grownupsciencefair.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:styles": "node-sass sass/grownupsciencefair.scss static/css/grownupsciencefair.css"
+  },
+  "author": "Geoff Hing <geoffing@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.3.0"
+  }
+}
