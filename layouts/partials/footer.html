@@ -1,0 +1,25 @@
+<footer class="main-footer">
+<!-- TODO: Uncomment this when I had icons -->
+<!--
+<div class="attribution">
+    <p><a href="https://thenounproject.com/aneeque/collection/science/?i=783425s://thenounproject.com/aneeque/collection/science/?i=783425">Bacteria</a>, <a href="https://thenounproject.com/aneeque/collection/science/?i=783427">Beaker</a> and <a href="https://thenounproject.com/aneeque/collection/science/?i=783430">Cells</a> icons by <a href="https://thenounproject.com/aneeque/">Aneeque Ahmed</a> via <a href="https://thenounproject.com/">The Noun Project</a>.</p>
+</div>    
+-->
+<div class="container clearfix">
+        <a class="icon-rss" href="{{ "post/index.xml" | absURL }}" title="RSS"></a>
+        <p>&copy; {{ .Now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
+  </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery-1.11.0.min.js" | absURL }}"><\/script>')</script>
+<script src="{{ "js/plugins.js" | absURL }}"></script>
+
+{{ range .Site.Params.custom_js }}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{ end }}
+
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>
