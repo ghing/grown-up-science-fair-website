@@ -1,7 +1,7 @@
 +++
 date = "2017-01-15T13:40:33-06:00"
 title = "A Grown-Up Science Fair"
-draft = true
+draft = false 
 
 +++
 

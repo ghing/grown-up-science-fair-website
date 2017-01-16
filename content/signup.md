@@ -1,7 +1,7 @@
 +++
 date = "2017-01-15T15:42:24-06:00"
 title = "Signup"
-draft = true
+draft = false 
 
 +++
 
