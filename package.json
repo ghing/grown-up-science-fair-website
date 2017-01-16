@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:styles": "node-sass sass/grownupsciencefair.scss static/css/grownupsciencefair.css"
+    "build:styles": "node-sass sass/grownupsciencefair.scss static/css/grownupsciencefair.css",
+    "build:site": "hugo",
+    "build": "run-s build:styles build:site",
+    "publish": "rsync -avz -e \"ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress ./public/. grownupsciencefair.org:~/grownupsciencefair.org/."
   },
   "author": "Geoff Hing <geoffing@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.3.0"
+    "node-sass": "^4.3.0",
+    "npm-run-all": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghing/grown-up-science-fair-website.git"
   }
 }
