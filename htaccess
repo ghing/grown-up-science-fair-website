@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.grownupsciencefair\.org$ [NC]
+RewriteRule ^(.*)$ https://www.grownupsciencefair.org/$1 [R=301,L]

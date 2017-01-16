@@ -8,7 +8,7 @@
     "build:styles": "node-sass sass/grownupsciencefair.scss static/css/grownupsciencefair.css",
     "build:site": "hugo",
     "build": "run-s build:styles build:site",
-    "publish": "rsync -avz -e \"ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress ./public/. grownupsciencefair.org:~/grownupsciencefair.org/."
+    "publish": "cp htaccess ./public/.htaccess; rsync -avz -e \"ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress ./public/. home92846465.1and1-data.host:~/grownupsciencefair.org/."
   },
   "author": "Geoff Hing <geoffing@gmail.com>",
   "license": "MIT",

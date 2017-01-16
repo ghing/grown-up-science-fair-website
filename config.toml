@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Chicago Grown Up Science Fair"
-baseurl = "http://grownupsciencefair.org/"
+baseurl = "https://grownupsciencefair.org/"
 theme = "hugo-minimalist-theme"
 
 [Params]
