@@ -7,6 +7,10 @@ draft = false
 
 The Chicago Grown Up Science Fair is a chance for adults to use scientific methods, data and research to explore questions and solve problems as part of a supportive, fun community.  The fair is a low-pressure entry point back to scientific practice for adults whose education or work hasn’t necessarily allowed them to use science as a tool to address their curiosity.
 
+
+<p class="centering-container centering-container--signup-form"><a href="/signup/" class="button button--signup-form">I'm interested in the fair!</a></p>
+
+
 ## We’re all adults here
 
 Most science fairs for elementary and high school students have a mountain of rules.  This one doesn’t.

@@ -2,6 +2,31 @@
   text-align: left;
 }
 
+.button {
+  padding: .5em 1em;
+}
+
+.centering-container {
+  text-align: center;
+}
+
+.centering-container--signup-form {
+  padding: 2em 0;
+}
+
+.button--signup-form {
+  background-color: rgb(255,0,255);
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+  &:hover {
+    background-color: darken(rgb(255, 0, 255), 20%);
+    color: darken(#fff, 20%);
+  }
+}
+
 // TODO: Uncomment this when I add icons
 //.attribution {
 //  padding-top: 1em;
