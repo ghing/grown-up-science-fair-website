@@ -36,4 +36,10 @@ Now.
 
 ## When and where is the 2017 fair?
 
-We're still in the planning stages of the 2017 fair.  We'll update this page as soon as the date and location gets finalized.
+The 2017 fair will be on **Friday, April 14 at 7 p.m.** at the [Northerly Island Field House](https://www.google.com/maps/place/1400+S+Linn+White+Dr,+Chicago,+IL+60605/@41.8604551,-87.6105855,19z/data=!3m1!4b1!4m8!1m2!2m1!1snortherly+island!3m4!1s0x880e2b7a221b513f:0x9fdd1880d5f4bb6d!8m2!3d41.8604551!4d-87.6100383) at 1400 S. Linn White Dr.  It's right by the Shedd Aquarium, Field Museum and Soldier Field.
+
+There is a [Facebook event for the fair](https://www.facebook.com/events/234799443640612/) that you can share if that's your thing. There's also a [WOW List event](https://wowlist.org/events/26378/chicago-grown-up-science-fair).
+
+## I've got more questions
+
+You can e-mail us at info@grownupsciencefair.org.
